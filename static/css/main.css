@@ -1216,8 +1216,14 @@ input.error {
       align-self: baseline;
 }
 
-@media only screen and (max-width: 480px) and (min-height: 690px) {
+@media only screen and (max-width: 480px) {
   body .main {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+  }
+  .indicator {
+    position: static;
+    margin-bottom: 75px;
+    -webkit-transform: translate(0);
+            transform: translate(0);
   }
 }
